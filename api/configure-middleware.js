@@ -5,7 +5,7 @@ const session = require("express-session");
 
 const sessionConfig = {
   name: "batman", // defaults to sid
-  secret: "keep it secret, keep it safe!",
+  secret: "keep it safe",
   cookie: {
     maxAge: 1000 * 30,
     secure: false, // true in production,
